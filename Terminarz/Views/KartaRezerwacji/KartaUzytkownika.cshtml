@@ -1,0 +1,100 @@
+﻿@using PagedList.Mvc;
+@model PagedList.IPagedList<Terminarz.Models.Lista>
+
+@{
+    ViewBag.Title = "Karta użytkownika";
+}
+
+<head>
+    <title>Lista rezerwacji</title>
+    @Styles.Render("~/Style/style.css")
+</head>
+
+<body>
+    <div class="container" id="naglowekWszyscyLekarze" style="color:black">
+        <header class="naglowekWszyscyLekarze" style="text-align:center; font-size:40px;">
+            <p>Lista rezerwacji użytkownika</p>
+        </header>
+        <hr />
+
+        <div class="row">
+            <br />
+            <table class="table" border="1">
+                <thead>
+                    <tr>
+                        <th>
+                            <h2>Email użytkownika</h2>
+                        </th>
+                        <th>
+                            <h2>Data wizyty</h2>
+                        </th>
+                        <th>
+                            <h2>Telefon użytkownika</h2>
+                        </th>
+                        <th>
+                            <h2>Nazwa specjalisty</h2>
+                        </th>
+                        <th>
+                            <h2>Imie i nazwisko lekarza</h2>
+                        </th>
+                        <th>
+                            <h2>Godzina wizyty</h2>
+                        </th>
+                        <th>
+                            <h2>Modyfikacja</h2>
+                        </th>
+                    </tr>
+                </thead>
+                @foreach (var item in Model)
+                {
+                    <tbody>
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DataWizyty)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Telefon)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NazwaSpecjalisty)
+                                @item.Nazwaspecjalisty
+                            </td>
+                            <td>
+                                @item.Imie @item.Nazwisko
+                                @Html.DisplayFor(modelItem => item.ImieLekarza)@Html.DisplayFor(modelItem => item.NazwiskoLekarza)
+                            </td>
+                            <td>
+                                @item.GodzinaWizyty
+                                @Html.DisplayFor(modelItem => item.GodzinaWizyty)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Usuń", "Delete", new { id = item.IdKartaRezerwacji }, new { @class = "btn btn-primary" })
+                            </td>
+
+                            @if (User.IsInRole("Lekarza") || User.IsInRole("Pielegniarka"))
+                            {
+                                <td>
+                                    @Html.ActionLink("Edytuj", "Edit", new { id = item.IdKartaRezerwacji }, new { @class = "btn btn-primary" })
+                                    @Html.ActionLink("Szczegóły", "Details", new { id = item.IdKartaRezerwacji }, new { @class = "btn btn-default" })
+                                </td>
+                            }
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <td>
+                                    @Html.ActionLink("Edytuj", "Edit", new { id = item.IdKartaRezerwacji }, new { @class = "btn btn-primary" })
+                                    @Html.ActionLink("Szczegóły", "Details", new { id = item.IdKartaRezerwacji }, new { @class = "btn btn-default" })
+                                    @Html.ActionLink("Kasuj", "Delete", new { id = item.IdKartaRezerwacji }, new { @class = "btn btn-danger" })
+                                </td>
+                            }
+                        </tr>
+                    </tbody>
+                }
+
+            </table>
+
+        </div>
+    </div>
+</body>

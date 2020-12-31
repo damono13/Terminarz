@@ -1,0 +1,82 @@
+﻿@model Terminarz.Models.Lekarz
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Lekarz</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Specjalista.NazwaSpecjalisty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Specjalista.NazwaSpecjalisty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usługa.NazwaUsługi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usługa.NazwaUsługi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImieLekarza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImieLekarza)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NazwiskoLekarza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazwiskoLekarza)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Miasto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Miasto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ulica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ulica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.LekarzId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,206 @@
+﻿@model Terminarz.Models.KartaRezerwacji
+
+@{
+    ViewBag.Title = "Create";
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/themes/blitzer/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        //$.fn.datepicker.dates['pl'] = {
+        //    days: ["Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"],
+        //    daysShort: ["Niedz.", "Pon.", "Wt.", "Śr.", "Czw.", "Piąt.", "Sob."],
+        //    daysMin: ["Ndz.", "Pn.", "Wt.", "Śr.", "Czw.", "Pt.", "Sob."],
+        //    months: ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"],
+        //    monthsShort: ["Sty.", "Lut.", "Mar.", "Kwi.", "Maj", "Cze.", "Lip.", "Sie.", "Wrz.", "Paź.", "Lis.", "Gru."],
+        //    today: "Dzisiaj",
+        //    weekStart: 1,
+        //    clear: "Wyczyść",
+        //    format: "dd.mm.yyyy"
+        //$(selector).datepicker($.datepicker.regional["pl"]);
+
+        $(document).ready(function () {
+            $('#DisableWKEnds').datepicker({
+                beforeShowDay: $.datepicker.noWeekends,
+                dateFormat: "dd.mm.yy"
+            });
+        });
+    </script>
+    <script>
+    @*
+            const main_buttons = document.querySelectorAll(".main");
+            main_buttons.forEach((button) => {
+                button.addEventListener("click", ({ target }) => {
+                    if (target.classList.contains("checked")) {
+                        target.classList.remove("checked");
+                        target.classList.add("unchecked");
+                        subButtons("hidden", target);
+                    } else {
+                        target.classList.remove("unchecked");
+                        target.classList.add("checked");
+                        subButtons("visible", target);
+                    }
+                });
+            });
+
+            const section_buttons = document.querySelectorAll(".submain");
+            section_buttons.forEach((btn) => {
+
+                btn.addEventListener('click', () => {
+                    let text = "Czy jesteś pewny że chcesz wybrać godzinę:";
+                    text = `${text} <b>${btn.value}</b> ?`;
+                    messageBox("show", text, btn.value);
+                });
+            });
+
+            const modal_footer = document.querySelector(".modal-footer");
+            const modal = document.querySelector(".modal-body .container");
+            const modal_footer_buttons = document.querySelectorAll(".modal-footer button");
+
+            modal_footer_buttons.forEach((button) => {
+                button.addEventListener("click", ({ target }) => {
+                    switch (target.value) {
+                        case "cancel":
+                            messageBox("hide");
+                            break;
+                        case "ok":
+                            const action = modal_footer.getAttribute("data-action");
+                            // tu akcja
+                            alert("Potwiedziłeś że rezerwujesz wizytę na wybranć przez ciebie godzinę: " + action);
+                            /* swich(action) {
+                                  case '1-1':
+                                    dla przycisku <button value="1-1">
+                                    break;
+                                  . . .
+                                  case '3-2':
+                                    dla przycisku <button value="3-2">
+                                    break;
+                                  itp.
+                               }
+                            */
+                            break;
+                    }
+                });
+            });
+
+            function messageBox(cmd, msg = "", action = "") {
+                let class_remove = "";
+                let class_add = "";
+
+                switch (cmd) {
+                    case "show":
+                        class_remove = "hidden";
+                        class_add = "visible";
+                        break;
+                    case "hide":
+                        class_remove = "visible";
+                        class_add = "hidden";
+                        break;
+                }
+                modal_footer.setAttribute("data-action", action);
+                modal.innerHTML = msg;
+                modal_footer.classList.remove(class_remove);
+                modal_footer.classList.add(class_add);
+            }
+
+            function subButtons(cmd, target) {
+                const section_buttons = target.closest("section");
+                if (!!section_buttons) {
+                    const sub_buttons = section_buttons.querySelectorAll(".submain");
+                    if (!!sub_buttons) {
+                        sub_buttons.forEach((sub_button) => {
+                            if (cmd == "visible") {
+                                sub_button.classList.remove("hidden");
+                                sub_button.classList.add("visible");
+                            } else {
+                                sub_button.classList.remove("visible");
+                                sub_button.classList.add("hidden");
+                            }
+                        });
+                    }
+                }
+            }
+        *@
+    </script>
+    <script src="~/Scripts/jquery-3.4.0.min.js"></script>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+    @*
+            var date = new Date();
+            var cYear = date.getFullYear();
+            var cMonth = gate.getMonth();
+            var cDate = date.getDate();
+            $(document).ready(function () {
+                $('#DataWizyty').datepicker({
+                    maxDate: new Date(cYear, cMonth, cDate)
+                });
+            });
+        *@
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#IdSpecjalista").change(function () {
+                $.get("/KartaRezerwacji/GetLekarzList", { IdSpecjalista: $("#IdSpecjalista").val() }, function (data) {
+                    $("#IdLekarza").empty();
+                    $.each(data, function (index, row) {
+                        $("#IdLekarza").append("<option value='" + row.IdLekarza + "'>'" + row.LekarzNazwisko + "'</option>")
+                    });
+                });
+            })
+        });
+    </script>
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Rezerwacja wizyty</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <h3 class="control-label col-md-2">Email użytkownika:</h3>
+            <div class="col-md-10">
+                <input type="text" id="Email" name="Email" value="@ViewBag.Email" disabled />
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DataWizyty, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="text" id="DisableWKEnds" />
+                @*@Html.EditorFor(model => model.DataWizyty, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DataWizyty, "", new { @class = "text-danger" })*@
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Telefon, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Telefon, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Telefon, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GodzinaId, "Godzina Wizyty", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("GodzinaId", null, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.GodzinaId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Zatwierdź" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}

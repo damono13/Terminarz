@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Terminarz.Models.Usługa>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NazwaUsługi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Opłata)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NazwaUsługi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Opłata)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.UsługaId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.UsługaId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.UsługaId })
+        </td>
+    </tr>
+}
+
+</table>

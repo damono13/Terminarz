@@ -1,0 +1,58 @@
+﻿@model Terminarz.Models.KartaRezerwacji
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>KartaRezerwacji</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Godzina.GodzinaWizyty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Godzina.GodzinaWizyty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lekarz.ImieLekarza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lekarz.ImieLekarza)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataWizyty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataWizyty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telefon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telefon)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.KartaRezerwacjiId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

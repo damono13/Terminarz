@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Strona główna</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/Chosen/chosen.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="jumbotron text-center" style="margin-bottom:0; background-color: #51D7FC;">
+        <header style="color:black;">
+            <h2>
+                Niepubliczna Przychodnia Zdrowia
+            </h2>
+            <p>
+                Tu umówisz się do jednego z najlepszych specjalistów
+            </p>
+        </header>
+
+    </div>
+
+    <div class="navbar navbar-inverse">
+        <!--naglowek-->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <img alt="LogoPamed" src="~/Images/LogoBaner.png" />
+        </div>
+
+        <div class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active" style="color:black; font-size: 25px;">@Html.ActionLink("Strona Główna", "Index", "Home")</li>
+
+            @*<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Specjaliści <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li>@Html.ActionLink("Kardiolog", "Kardiolog", "Lekarz")</li>
+                    <li>@Html.ActionLink("Neurolog", "Neurolog", "Lekarz")</li>
+                    <li>@Html.ActionLink("Laryngolog", "Laryngolog", "Lekarz")</li>
+                    <li>@Html.ActionLink("Okulista", "Okulista", "Lekarz")</li>
+                    <li>@Html.ActionLink("Rodzinny", "Rodzinny", "Lekarz")</li>
+                </ul>
+            </li>*@
+
+                <li style="font-size: 20px;">@Html.ActionLink("Specjalista", "Index", "Specjalista")</li>
+                <li style="font-size: 20px;">@Html.ActionLink("KartaUzytkownika", "KartaUzytkownika", "KartaRezerwacji")</li>
+
+                <li style="font-size: 20px;">@Html.ActionLink("Godzina", "Index", "Godzina")</li>
+                <li style="font-size: 20px;">@Html.ActionLink("DzienTygodnia", "Index", "DzienTygodnia")</li>
+                @*<li style="font-size: 20px;">@Html.ActionLink("DzienTygodniaGodzinaWizyty", "Index", "DzienTygodniaGodzinaWizyty")</li>*@
+                <li style="font-size: 20px;">@Html.ActionLink("Lekarz", "Index", "Lekarz")</li>
+                <li style="font-size: 20px;">@Html.ActionLink("Usługa", "Index", "Usługa")</li>
+                @*<li style="font-size: 20px;">@Html.ActionLink("LekarzGodzinaWizyty", "Index", "LekarzGodzinaWizyty")</li>*@
+
+                <li style="font-size: 20px;">@Html.ActionLink("Karta rezerwacji", "Index", "KartaRezerwacji")</li>
+                <li class="btn-default">@Html.Partial("_LoginPartial")</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    @*<footer class="footer">
+        <div class="row">
+            <div class="col-12 col-md-4 col-sm-4">
+                <h3>
+                    Pamed.pl &copy; 2019-
+                    <script>document.write(new Date().getFullYear());</script>
+                </h3>
+                <p>Dbamy o naszych pacjentów</p>
+            </div>
+            <div class="col-12 col-md-4 col-sm-4">
+                <h3>
+                    Jeśli nie wiesz jak umówić wizytę do wybranego przez siebie specjalisty lekarza <br />
+                    Zadzwoń pod numer telefonu <u>910-876-202</u> <br />lub <br />Napisz do nas maila na adres <u>pamed@pamed.pl </u>a my Ci pomożemy
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 col-sm-4">
+                <h3>Nasz adres i kontakt</h3>
+                @Html.ActionLink("Informacje", "Index", "Informacje", new { @class = "btn btn-primary btn-lg" })
+                @Html.ActionLink("Kontakt", "Kontakt", "Informacje", new { @class = "btn btn-primary btn-lg" })
+            </div>
+        </div>
+    </footer>*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/chosen.jquery.min.js"></script>
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

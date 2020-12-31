@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = "Strona Główna";
+    
+}
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Strona Główna</title>
+        @Styles.Render("~/Style/style.css")
+    </head>
+
+
+
+<body>
+    <div class="container">
+        <!--wiersz 1-->
+        <div class="row">
+
+            <div class="col-12 stronaGlownaW1">
+                <div class="alert-info">
+                    <h2>Zapisz się na wizyte bez wychodzenia z domu</h2>
+                    <h3>krok po kroku</h3>
+                </div>
+
+                <header class="naglowekStronaGlowna">
+                    <h3>
+                        Zostałeś zarejestrowany/zalogowany
+                    </h3>
+
+                    <h3>
+                        Możesz zarezerwować wizytę do wybranego przez siebie specjalisty lekarza
+                    </h3>
+                </header>
+
+            </div>
+
+        </div>
+
+        <!--wiersz 2-->
+        <div class="row2">
+
+            <!--Data-ride="carousel" odpowiada za przejścia między obrazkami-->
+            <div id="imageCarousel" class="carousel slide" data-interval="2000">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#imageCarousel" data-slide-to="1"></li>
+                    <li data-target="#imageCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <img src="~/Images/LekarzBaner.jpg" class="center-block" />
+
+                        <div class="carousel-caption">
+                            <h3>Wybierz Lekarza</h3> <br />
+                            <br />
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <img src="~/Images/CalenderBanner.jpg" class="center-block">
+                        <div class="carousel-caption">
+                            <h3>Wybierz interesujący Cię termin</h3>
+                            <br />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="~/Images/RezerwacjaZapisanaBaner.jpg" class="center-block" />
+                        <div class="carousel-caption">
+                            <h3>Twoja wizyta zastanie zarezerwowana</h3>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <a class="left carousel-control" href="#imageCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#imageCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </div>
+
+
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#imageCarousel").carousel();
+                });
+            </script>
+        </div>
+    </div>
+
+    <script src="~/Scripts/jquery-3.5.1.min.js"></script>
+
+</body>

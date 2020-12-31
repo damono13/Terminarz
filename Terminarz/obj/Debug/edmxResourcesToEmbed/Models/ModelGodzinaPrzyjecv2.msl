@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TerminarzModel1StoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="DzienTygodnias">
+      <EntityTypeMapping TypeName="TerminarzModel1.DzienTygodnias">
+        <MappingFragment StoreEntitySet="DzienTygodnias">
+          <ScalarProperty Name="DzienTygodniaId" ColumnName="DzienTygodniaId" />
+          <ScalarProperty Name="Dzien" ColumnName="Dzien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GodzinaPrzyjecs">
+      <EntityTypeMapping TypeName="TerminarzModel1.GodzinaPrzyjecs">
+        <MappingFragment StoreEntitySet="GodzinaPrzyjecs">
+          <ScalarProperty Name="GodzinaPrzyjecId" ColumnName="GodzinaPrzyjecId" />
+          <ScalarProperty Name="GodzinaPrzyjecLekarza" ColumnName="GodzinaPrzyjecLekarza" />
+          <ScalarProperty Name="DzienTygodniaId" ColumnName="DzienTygodniaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lekarzs">
+      <EntityTypeMapping TypeName="TerminarzModel1.Lekarzs">
+        <MappingFragment StoreEntitySet="Lekarzs">
+          <ScalarProperty Name="LekarzId" ColumnName="LekarzId" />
+          <ScalarProperty Name="ImieLekarza" ColumnName="ImieLekarza" />
+          <ScalarProperty Name="NazwiskoLekarza" ColumnName="NazwiskoLekarza" />
+          <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SpecjalistaId" ColumnName="SpecjalistaId" />
+          <ScalarProperty Name="DzienTygodniaId" ColumnName="DzienTygodniaId" />
+          <ScalarProperty Name="UsługaId" ColumnName="UsługaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TerminarzModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DzienTygodnias">
+    <Key>
+      <PropertyRef Name="DzienTygodniaId" />
+    </Key>
+    <Property Name="DzienTygodniaId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Dzien" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="GodzinaPrzyjecs">
+    <Key>
+      <PropertyRef Name="GodzinaPrzyjecId" />
+    </Key>
+    <Property Name="GodzinaPrzyjecId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GodzinaPrzyjecLekarza" Type="nvarchar(max)" />
+    <Property Name="DzienTygodniaId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lekarzs">
+    <Key>
+      <PropertyRef Name="LekarzId" />
+    </Key>
+    <Property Name="LekarzId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ImieLekarza" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="NazwiskoLekarza" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Miasto" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Ulica" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Telefon" Type="int" Nullable="false" />
+    <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SpecjalistaId" Type="int" Nullable="false" />
+    <Property Name="DzienTygodniaId" Type="int" Nullable="false" />
+    <Property Name="UsługaId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_dbo_GodzinaPrzyjecs_dbo_DzienTygodnias_DzienTygodniaId">
+    <End Role="DzienTygodnias" Type="Self.DzienTygodnias" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="GodzinaPrzyjecs" Type="Self.GodzinaPrzyjecs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DzienTygodnias">
+        <PropertyRef Name="DzienTygodniaId" />
+      </Principal>
+      <Dependent Role="GodzinaPrzyjecs">
+        <PropertyRef Name="DzienTygodniaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId">
+    <End Role="DzienTygodnias" Type="Self.DzienTygodnias" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Lekarzs" Type="Self.Lekarzs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DzienTygodnias">
+        <PropertyRef Name="DzienTygodniaId" />
+      </Principal>
+      <Dependent Role="Lekarzs">
+        <PropertyRef Name="DzienTygodniaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TerminarzModel1StoreContainer">
+    <EntitySet Name="DzienTygodnias" EntityType="Self.DzienTygodnias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GodzinaPrzyjecs" EntityType="Self.GodzinaPrzyjecs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lekarzs" EntityType="Self.Lekarzs" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_GodzinaPrzyjecs_dbo_DzienTygodnias_DzienTygodniaId" Association="Self.FK_dbo_GodzinaPrzyjecs_dbo_DzienTygodnias_DzienTygodniaId">
+      <End Role="DzienTygodnias" EntitySet="DzienTygodnias" />
+      <End Role="GodzinaPrzyjecs" EntitySet="GodzinaPrzyjecs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId" Association="Self.FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId">
+      <End Role="DzienTygodnias" EntitySet="DzienTygodnias" />
+      <End Role="Lekarzs" EntitySet="Lekarzs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

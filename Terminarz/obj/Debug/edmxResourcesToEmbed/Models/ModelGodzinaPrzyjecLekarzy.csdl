@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TerminarzModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DzienTygodnias">
+    <Key>
+      <PropertyRef Name="DzienTygodniaId" />
+    </Key>
+    <Property Name="DzienTygodniaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Dzien" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GodzinaPrzyjecId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GodzinaPrzyjecs" Relationship="Self.FK_dbo_DzienTygodnias_dbo_GodzinaPrzyjecs_GodzinaPrzyjecId" FromRole="DzienTygodnias" ToRole="GodzinaPrzyjecs" />
+    <NavigationProperty Name="Lekarzs" Relationship="Self.FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId" FromRole="DzienTygodnias" ToRole="Lekarzs" />
+  </EntityType>
+  <EntityType Name="GodzinaPrzyjecs">
+    <Key>
+      <PropertyRef Name="GodzinaPrzyjecId" />
+    </Key>
+    <Property Name="GodzinaPrzyjecId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GodzinaPrzyjecLekarza" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DzienTygodnias" Relationship="Self.FK_dbo_DzienTygodnias_dbo_GodzinaPrzyjecs_GodzinaPrzyjecId" FromRole="GodzinaPrzyjecs" ToRole="DzienTygodnias" />
+  </EntityType>
+  <EntityType Name="GodzinaWizyties">
+    <Key>
+      <PropertyRef Name="GodzinaWizytyId" />
+    </Key>
+    <Property Name="GodzinaWizytyId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Godzina" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="KartaRezerwacjis" Relationship="Self.FK_dbo_KartaRezerwacjis_dbo_GodzinaWizyties_GodzinaWizytyId" FromRole="GodzinaWizyties" ToRole="KartaRezerwacjis" />
+  </EntityType>
+  <EntityType Name="KartaRezerwacjis">
+    <Key>
+      <PropertyRef Name="KartaRezerwacjiId" />
+    </Key>
+    <Property Name="KartaRezerwacjiId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DataWizyty" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Telefon" Type="Int32" Nullable="false" />
+    <Property Name="GodzinaWizytyId" Type="Int32" Nullable="false" />
+    <Property Name="LekarzId" Type="Int32" Nullable="false" />
+    <Property Name="Uzytkownicy_Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GodzinaWizyties" Relationship="Self.FK_dbo_KartaRezerwacjis_dbo_GodzinaWizyties_GodzinaWizytyId" FromRole="KartaRezerwacjis" ToRole="GodzinaWizyties" />
+    <NavigationProperty Name="Lekarzs" Relationship="Self.FK_dbo_KartaRezerwacjis_dbo_Lekarzs_LekarzId" FromRole="KartaRezerwacjis" ToRole="Lekarzs" />
+  </EntityType>
+  <EntityType Name="Lekarzs">
+    <Key>
+      <PropertyRef Name="LekarzId" />
+    </Key>
+    <Property Name="LekarzId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImieLekarza" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NazwiskoLekarza" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Miasto" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ulica" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Telefon" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SpecjalistaId" Type="Int32" Nullable="false" />
+    <Property Name="DzienTygodniaId" Type="Int32" Nullable="false" />
+    <Property Name="UsługaId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="DzienTygodnias" Relationship="Self.FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId" FromRole="Lekarzs" ToRole="DzienTygodnias" />
+    <NavigationProperty Name="KartaRezerwacjis" Relationship="Self.FK_dbo_KartaRezerwacjis_dbo_Lekarzs_LekarzId" FromRole="Lekarzs" ToRole="KartaRezerwacjis" />
+    <NavigationProperty Name="Specjalistas" Relationship="Self.FK_dbo_Lekarzs_dbo_Specjalistas_SpecjalistaId" FromRole="Lekarzs" ToRole="Specjalistas" />
+  </EntityType>
+  <EntityType Name="Specjalistas">
+    <Key>
+      <PropertyRef Name="SpecjalistaId" />
+    </Key>
+    <Property Name="SpecjalistaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NazwaSpecjalisty" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Lekarzs" Relationship="Self.FK_dbo_Lekarzs_dbo_Specjalistas_SpecjalistaId" FromRole="Specjalistas" ToRole="Lekarzs" />
+  </EntityType>
+  <Association Name="FK_dbo_DzienTygodnias_dbo_GodzinaPrzyjecs_GodzinaPrzyjecId">
+    <End Role="GodzinaPrzyjecs" Type="Self.GodzinaPrzyjecs" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DzienTygodnias" Type="Self.DzienTygodnias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GodzinaPrzyjecs">
+        <PropertyRef Name="GodzinaPrzyjecId" />
+      </Principal>
+      <Dependent Role="DzienTygodnias">
+        <PropertyRef Name="GodzinaPrzyjecId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId">
+    <End Role="DzienTygodnias" Type="Self.DzienTygodnias" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Lekarzs" Type="Self.Lekarzs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DzienTygodnias">
+        <PropertyRef Name="DzienTygodniaId" />
+      </Principal>
+      <Dependent Role="Lekarzs">
+        <PropertyRef Name="DzienTygodniaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_KartaRezerwacjis_dbo_GodzinaWizyties_GodzinaWizytyId">
+    <End Role="GodzinaWizyties" Type="Self.GodzinaWizyties" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="KartaRezerwacjis" Type="Self.KartaRezerwacjis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GodzinaWizyties">
+        <PropertyRef Name="GodzinaWizytyId" />
+      </Principal>
+      <Dependent Role="KartaRezerwacjis">
+        <PropertyRef Name="GodzinaWizytyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_KartaRezerwacjis_dbo_Lekarzs_LekarzId">
+    <End Role="Lekarzs" Type="Self.Lekarzs" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="KartaRezerwacjis" Type="Self.KartaRezerwacjis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lekarzs">
+        <PropertyRef Name="LekarzId" />
+      </Principal>
+      <Dependent Role="KartaRezerwacjis">
+        <PropertyRef Name="LekarzId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_Lekarzs_dbo_Specjalistas_SpecjalistaId">
+    <End Role="Specjalistas" Type="Self.Specjalistas" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Lekarzs" Type="Self.Lekarzs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Specjalistas">
+        <PropertyRef Name="SpecjalistaId" />
+      </Principal>
+      <Dependent Role="Lekarzs">
+        <PropertyRef Name="SpecjalistaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DzienTygodnias" EntityType="Self.DzienTygodnias" />
+    <EntitySet Name="GodzinaPrzyjecs" EntityType="Self.GodzinaPrzyjecs" />
+    <EntitySet Name="GodzinaWizyties" EntityType="Self.GodzinaWizyties" />
+    <EntitySet Name="KartaRezerwacjis" EntityType="Self.KartaRezerwacjis" />
+    <EntitySet Name="Lekarzs" EntityType="Self.Lekarzs" />
+    <EntitySet Name="Specjalistas" EntityType="Self.Specjalistas" />
+    <AssociationSet Name="FK_dbo_DzienTygodnias_dbo_GodzinaPrzyjecs_GodzinaPrzyjecId" Association="Self.FK_dbo_DzienTygodnias_dbo_GodzinaPrzyjecs_GodzinaPrzyjecId">
+      <End Role="GodzinaPrzyjecs" EntitySet="GodzinaPrzyjecs" />
+      <End Role="DzienTygodnias" EntitySet="DzienTygodnias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId" Association="Self.FK_dbo_Lekarzs_dbo_DzienTygodnias_DzienTygodniaId">
+      <End Role="DzienTygodnias" EntitySet="DzienTygodnias" />
+      <End Role="Lekarzs" EntitySet="Lekarzs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_KartaRezerwacjis_dbo_GodzinaWizyties_GodzinaWizytyId" Association="Self.FK_dbo_KartaRezerwacjis_dbo_GodzinaWizyties_GodzinaWizytyId">
+      <End Role="GodzinaWizyties" EntitySet="GodzinaWizyties" />
+      <End Role="KartaRezerwacjis" EntitySet="KartaRezerwacjis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_KartaRezerwacjis_dbo_Lekarzs_LekarzId" Association="Self.FK_dbo_KartaRezerwacjis_dbo_Lekarzs_LekarzId">
+      <End Role="Lekarzs" EntitySet="Lekarzs" />
+      <End Role="KartaRezerwacjis" EntitySet="KartaRezerwacjis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_Lekarzs_dbo_Specjalistas_SpecjalistaId" Association="Self.FK_dbo_Lekarzs_dbo_Specjalistas_SpecjalistaId">
+      <End Role="Specjalistas" EntitySet="Specjalistas" />
+      <End Role="Lekarzs" EntitySet="Lekarzs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TerminarzModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="DzienTygodnias">
+      <EntityTypeMapping TypeName="TerminarzModel.DzienTygodnias">
+        <MappingFragment StoreEntitySet="DzienTygodnias">
+          <ScalarProperty Name="DzienTygodniaId" ColumnName="DzienTygodniaId" />
+          <ScalarProperty Name="Dzien" ColumnName="Dzien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Godzinas">
+      <EntityTypeMapping TypeName="TerminarzModel.Godzinas">
+        <MappingFragment StoreEntitySet="Godzinas">
+          <ScalarProperty Name="GodzinaId" ColumnName="GodzinaId" />
+          <ScalarProperty Name="GodzinaWizyty" ColumnName="GodzinaWizyty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KartaRezerwacjis">
+      <EntityTypeMapping TypeName="TerminarzModel.KartaRezerwacjis">
+        <MappingFragment StoreEntitySet="KartaRezerwacjis">
+          <ScalarProperty Name="KartaRezerwacjiId" ColumnName="KartaRezerwacjiId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DataWizyty" ColumnName="DataWizyty" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="GodzinaWizytyId" ColumnName="GodzinaWizytyId" />
+          <ScalarProperty Name="LekarzId" ColumnName="LekarzId" />
+          <ScalarProperty Name="GodzinaWizyty_GodzinaId" ColumnName="GodzinaWizyty_GodzinaId" />
+          <ScalarProperty Name="Uzytkownicy_Id" ColumnName="Uzytkownicy_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lekarzs">
+      <EntityTypeMapping TypeName="TerminarzModel.Lekarzs">
+        <MappingFragment StoreEntitySet="Lekarzs">
+          <ScalarProperty Name="LekarzId" ColumnName="LekarzId" />
+          <ScalarProperty Name="ImieLekarza" ColumnName="ImieLekarza" />
+          <ScalarProperty Name="NazwiskoLekarza" ColumnName="NazwiskoLekarza" />
+          <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SpecjalistaId" ColumnName="SpecjalistaId" />
+          <ScalarProperty Name="UsługaId" ColumnName="UsługaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="DzienTygodniaGodzinas" TypeName="TerminarzModel.DzienTygodniaGodzinas" StoreEntitySet="DzienTygodniaGodzinas">
+      <EndProperty Name="DzienTygodnias">
+        <ScalarProperty Name="DzienTygodniaId" ColumnName="DzienTygodniaId" />
+      </EndProperty>
+      <EndProperty Name="Godzinas">
+        <ScalarProperty Name="GodzinaId" ColumnName="GodzinaId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="LekarzGodzinas" TypeName="TerminarzModel.LekarzGodzinas" StoreEntitySet="LekarzGodzinas">
+      <EndProperty Name="Godzinas">
+        <ScalarProperty Name="GodzinaId" ColumnName="GodzinaId" />
+      </EndProperty>
+      <EndProperty Name="Lekarzs">
+        <ScalarProperty Name="LekarzId" ColumnName="LekarzId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

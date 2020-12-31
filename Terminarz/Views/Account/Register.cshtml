@@ -1,0 +1,66 @@
+﻿@model Terminarz.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Zarejestruj";
+}
+
+    <head>
+        <title>@ViewBag.Title</title>
+        @Styles.Render("~/Style/style.css")
+    </head>
+    
+    <body>
+        <div class="container-fluid" id="panelRejestracji">
+
+            <table class="table" border="1">
+                <thead>
+                    <tr>
+                        <th>
+                            <header>
+                                <h2 id="naglowekRejestracji">@ViewBag.Title</h2>
+                            </header>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                @Html.AntiForgeryToken()
+
+                                @Html.ValidationSummary("", new { @class = "text-danger" })
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Email, new { @class = "col-md-4 control-label" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Password, new { @class = "col-md-4 control-label" })
+                                    <div class="col-md-6">
+                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-4 control-label" })
+                                    <div class="col-md-6">
+                                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-6">
+                                        <input type="submit" class="btn btn-default btn-lg" value="Zarejestruj" />
+                                    </div>
+                                </div>
+                            }
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

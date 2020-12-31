@@ -1,0 +1,26 @@
+﻿@model Terminarz.Models.Specjalista
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Specjalista</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NazwaSpecjalisty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazwaSpecjalisty)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SpecjalistaId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

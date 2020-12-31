@@ -1,0 +1,57 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<Terminarz.Models.Lista>
+
+@{
+    ViewBag.Title = "Informacje";
+}
+
+@*  sm -> 576px;
+    md -> 768px;
+    lg -> 992px;
+    xl -> 1200px;
+
+    1,2,4..12
+
+    col-{prefix}-{ilość_kolumn} -->
+*@
+
+    <head>
+        <title>@ViewBag.Title</title>
+        @Styles.Render("~/Style/style.css")
+    </head>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        @Html.ActionLink("Dodaj nową", "Create", new { @class ="btn btn-primary"})
+    </p>
+}
+
+@foreach (var item in Model)
+{
+<body>
+    <div class="container bg-primary text-white">
+        <div class="row">
+            <h2 class="naglowek_info">Informacje o Niepublicznej Przychodni Zdrowia <b>@item.Nazwa</b></h2>
+        </div>
+    </div>
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-2">
+                <img class="info_logo" src="~/Images/IconaInfo.png" alt="informacje logo" width="100" height="100" />
+            </div>
+
+            <div class="col-lg-10 bg-white text-body informacje">
+                <p>
+                    Niepubliczna przychodnia zdrowia @item.Nazwa jest to niewielka niepubliczna przychodnia.
+                    Województwo @item.Wojewodztwo w którym mieści się za przychodnia jest jednym z większych z posród pozostałych placówek mieści się w miejscowości @item.Miasto.
+                    W przychodni pracuje wielu niesamowitych lekarzy w swoim zawodzie, którzy oferuje wiele korzystnych dla pacjenta usług.
+                    Mają oni duże doświadczenie w zakresie leczeniu wielu chorób pacjentów. Lekarze przujmują pacjentów z róznymi dolegliwościami.
+                    Mogą także udzielić wielu porad w zakresie różnych przewlekłych chorób.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+}

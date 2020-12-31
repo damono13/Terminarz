@@ -1,0 +1,1 @@
+﻿const slidePage = document.querySelector(".slidepage");

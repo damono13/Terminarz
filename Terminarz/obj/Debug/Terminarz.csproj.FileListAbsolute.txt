@@ -1,0 +1,439 @@
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Terminarz.dll.config
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Terminarz.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Terminarz.pdb
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\csc.exe
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\csc.exe.config
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\csc.rsp
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\csi.exe
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\csi.rsp
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\System.AppContext.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\vbc.exe
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\vbc.exe.config
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\vbc.rsp
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Antlr3.Runtime.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\EntityFramework.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\EntityFramework.SqlServer.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Newtonsoft.Json.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Owin.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Helpers.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Mvc.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Optimization.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Razor.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.WebPages.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\WebGrease.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\EntityFramework.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\EntityFramework.SqlServer.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Helpers.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Mvc.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Optimization.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.Razor.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.WebPages.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Newtonsoft.Json.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Antlr3.Runtime.pdb
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\System.Web.Razor.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.csprojAssemblyReference.cache
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CoreCompileInputs.cache
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CopyComplete
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.pdb
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\PagedList.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\PagedList.Mvc.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\PagedList.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\PagedList.Mvc.xml
+C:\Users\dz31\source\repos\Terminarz\Terminarz\bin\System.Linq.Dynamic.dll
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.Migrations._001.resources
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.GenerateResource.cache
+C:\Users\dz31\source\repos\Terminarz\Terminarz\obj\Debug\Terminarz.Migrations._002.resources
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Terminarz.dll.config
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Terminarz.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Terminarz.pdb
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\csc.exe
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\csc.exe.config
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\csc.rsp
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\csi.exe
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\csi.rsp
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\System.AppContext.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\vbc.exe
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\vbc.exe.config
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\vbc.rsp
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Antlr3.Runtime.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\EntityFramework.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\EntityFramework.SqlServer.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Newtonsoft.Json.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Owin.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\PagedList.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\PagedList.Mvc.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Linq.Dynamic.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Helpers.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Mvc.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Optimization.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Razor.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.WebPages.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\WebGrease.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\EntityFramework.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\EntityFramework.SqlServer.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\PagedList.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\PagedList.Mvc.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Helpers.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Mvc.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Optimization.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.Razor.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.WebPages.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Newtonsoft.Json.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Antlr3.Runtime.pdb
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csprojAssemblyReference.cache
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.Migrations._001.resources
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.Migrations._002.resources
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.GenerateResource.cache
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CoreCompileInputs.cache
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CopyComplete
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.dll
+C:\Users\Marcin Zawadzki\Downloads\Terminarz\Terminarz\Terminarz\obj\Debug\Terminarz.pdb
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Terminarz.dll.config
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Terminarz.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Terminarz.pdb
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\csc.exe
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\csc.exe.config
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\csc.rsp
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\csi.exe
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\csi.rsp
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\System.AppContext.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\vbc.exe
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\vbc.exe.config
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\vbc.rsp
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Antlr3.Runtime.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\EntityFramework.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\EntityFramework.SqlServer.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Newtonsoft.Json.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Owin.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\PagedList.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\PagedList.Mvc.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Linq.Dynamic.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Helpers.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Mvc.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Optimization.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Razor.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.WebPages.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\WebGrease.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\EntityFramework.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\EntityFramework.SqlServer.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\PagedList.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\PagedList.Mvc.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Helpers.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Mvc.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Optimization.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.Razor.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.WebPages.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Newtonsoft.Json.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Antlr3.Runtime.pdb
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\System.Web.Razor.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.csprojAssemblyReference.cache
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CoreCompileInputs.cache
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CopyComplete
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.dll
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.pdb
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.Migrations._001.resources
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.GenerateResource.cache
+C:\Users\dz31\source\repos\poprawiony\Terminarz\Terminarz\obj\Debug\Terminarz.Migrations._002.resources
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Terminarz.dll.config
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Terminarz.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Terminarz.pdb
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\csc.exe
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\csc.exe.config
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\csc.rsp
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\csi.exe
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\csi.rsp
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\System.AppContext.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\vbc.exe
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\vbc.exe.config
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\vbc.rsp
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Antlr3.Runtime.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\EntityFramework.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\EntityFramework.SqlServer.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Newtonsoft.Json.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Owin.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\PagedList.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\PagedList.Mvc.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Linq.Dynamic.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Helpers.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Mvc.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Optimization.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Razor.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.WebPages.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\WebGrease.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\EntityFramework.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\EntityFramework.SqlServer.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\PagedList.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\PagedList.Mvc.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Helpers.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Mvc.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Optimization.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.Razor.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.WebPages.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\System.Web.WebPages.Razor.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Newtonsoft.Json.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Antlr3.Runtime.pdb
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\System.Web.Razor.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csprojAssemblyReference.cache
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CoreCompileInputs.cache
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.CopyComplete
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\obj\Debug\Terminarz.dll
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\obj\Debug\Terminarz.pdb
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\obj\Debug\Terminarz.Migrations._001.resources
+C:\Users\dz31\source\repos\KOPIAterminarz\Terminarz\Terminarz\obj\Debug\Terminarz.csproj.GenerateResource.cache

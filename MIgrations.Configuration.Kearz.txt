@@ -1,0 +1,23 @@
+            var lekarz = new List<Lekarz>
+                {
+                    //Neurolog
+                    new Lekarz { IdLekarza = 1, Imie="Barbara", Nazwisko="Nowak", Ulica="Główna 2", Miasto = "Płock",  Wojewodztwo="Mazowieckie", Telefon=510234123, Email="barbaranowak@wp.pl", DniPrzyjęć="Poniedziałek-Wtorek", GodzinyPrzyjęć="8:30-14:00", IdSpecjalizacja = 1 , NazwaSpecjalizacji = "Neurolog", IdUsługa = 3 , NazwaUsługi = "guz mózgu", Opłata=540},
+                    new Lekarz { IdLekarza = 2, Imie="Włodzimierz", Nazwisko="Pawlak", Ulica="Kościuszki 14", Miasto = "Mława",  Wojewodztwo="Mazowieckie", Telefon=884425368, Email="wlodzimierzp@interia.pl", DniPrzyjęć="Poniedziałek-Wtorek", GodzinyPrzyjęć="8:30-14:00", IdSpecjalizacja = 1 , NazwaSpecjalizacji = "Neurolog", IdUsługa = 1 ,NazwaUsługi = "padaczka", Opłata=300},
+
+                    //Kardiolog 2
+                    new Lekarz { IdLekarza = 3, Imie="Tomasz", Nazwisko="Krupiński", Ulica="Słoneczna 10", Miasto = "Sierpc",  Wojewodztwo="Mazowieckie", Telefon=645285756, Email="TKrupisnki@wp.pl", DniPrzyjęć="Czwartek.Piątek", GodzinyPrzyjęć="8:30-12:00", IdSpecjalizacja = 2 , NazwaSpecjalizacji = "Kardiolog", IdUsługa = 5 , NazwaUsługi = "nadciśnienie tętnicze", Opłata=450},
+                    new Lekarz { IdLekarza = 4, Imie="Monika", Nazwisko="Fel", Ulica="Wiatraczna 4", Miasto = "Płock",  Wojewodztwo="Mazowieckie", Telefon=784256356, Email="monikafel4@onet.pl", DniPrzyjęć="Czwartek.Piątek", GodzinyPrzyjęć="9:00-14:00", IdSpecjalizacja = 2 , NazwaSpecjalizacji = "Kardiolog", IdUsługa = 8 , NazwaUsługi = "miażdżyca", Opłata=580},
+
+                    //Laryngolog 3
+                    new Lekarz { IdLekarza = 5, Imie="Ignacy", Nazwisko="Bielak", Ulica="Warszawska 24", Miasto = "Żuromin",  Wojewodztwo="Mazowieckie", Telefon=754952658, Email="ignacybielak24@interia.pl", DniPrzyjęć="Środa.Czwartek", GodzinyPrzyjęć="9:30-13:30", IdSpecjalizacja = 3 , NazwaSpecjalizacji = "Laryngolog", IdUsługa = 10 , NazwaUsługi = "krwawienie z nosa", Opłata=200},
+                    new Lekarz { IdLekarza = 6, Imie="Jerzy", Nazwisko="Resiak", Ulica="Długosza 18", Miasto = "Żuromin",  Wojewodztwo="Mazowieckie", Telefon=574125789, Email="jerzyresiak18@onet.pl", DniPrzyjęć="Wtorek.Piątek ", GodzinyPrzyjęć="8:00-13:00", IdSpecjalizacja = 3 , NazwaSpecjalizacji = "Laryngolog", IdUsługa = 11 , NazwaUsługi = "przewlekły katar", Opłata=150},
+
+                    //Okulista 4
+                    new Lekarz { IdLekarza = 7, Imie="Zbigniew", Nazwisko="Kosek", Ulica="3 Maja 12/15", Miasto = "Mława",  Wojewodztwo="Mazowieckie", Telefon=558447236, Email="zbigniewkosek@interia.pl", DniPrzyjęć="Wtorek.Środa", GodzinyPrzyjęć="9:30-13:00", IdSpecjalizacja = 4 , NazwaSpecjalizacji = "Okulista", IdUsługa = 14 , NazwaUsługi = "częste mruganie", Opłata=230},
+                    new Lekarz { IdLekarza = 8, Imie="Tadeusz", Nazwisko="Nowak", Ulica="Szczytna 3", Miasto = "Sierpc",  Wojewodztwo="Mazowieckie", Telefon=884558963, Email="NowakTadeusz@interia.pl", DniPrzyjęć="Środa.Piątek", GodzinyPrzyjęć="9:00-13:00", IdSpecjalizacja = 4 , NazwaSpecjalizacji = "Okulista", IdUsługa = 13 , NazwaUsługi = "pogorszenie ostrości wzroku", Opłata=360},
+
+                    //Rodzinny 5
+                    new Lekarz { IdLekarza = 9, Imie="Dorota", Nazwisko="Wiśniewska", Ulica="Witosa 25", Miasto = "Żuromin",  Wojewodztwo="Mazowieckie", Telefon=510234123, Email="dorotaw25@wp.pl", DniPrzyjęć="Poniedziałek-Piatek ", GodzinyPrzyjęć="8:30-15:00", IdSpecjalizacja = 5 , NazwaSpecjalizacji = "Rodzinny", IdUsługa = 17 , NazwaUsługi = "udzielanie rad", Opłata=100},
+                    new Lekarz { IdLekarza = 10, Imie="Agata", Nazwisko="Lipska", Ulica="Słoneczna 1", Miasto = "Żuromin",  Wojewodztwo="Mazowieckie", Telefon=510234123, Email="agatalipska1@interia.pl", DniPrzyjęć="Poniedziałek-Czwartek", GodzinyPrzyjęć="8:30-14:30", IdSpecjalizacja = 5 , NazwaSpecjalizacji = "Rodzinny", IdUsługa = 18 , NazwaUsługi = "kierowanie do specjalistów", Opłata=50}
+
+                };

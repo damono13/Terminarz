@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Terminarz.Models.KartaRezerwacji>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Karta rzerwacji uzytkowników</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Lekarz.Specjalista.NazwaSpecjalisty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lekarz.LekarzImieNazwisko)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataWizyty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Godzina.GodzinaWizyty)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lekarz.Specjalista.NazwaSpecjalisty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lekarz.LekarzImieNazwisko)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataWizyty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Godzina.GodzinaWizyty)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.KartaRezerwacjiId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.KartaRezerwacjiId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.KartaRezerwacjiId })
+        </td>
+    </tr>
+}
+
+</table>

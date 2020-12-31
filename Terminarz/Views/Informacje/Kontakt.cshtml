@@ -1,0 +1,46 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<Terminarz.Models.Lista>
+
+@{
+    ViewBag.Title = "Kontakt";
+}
+
+<head>
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Style/style.css")
+</head>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        @Html.ActionLink("Dodaj nowy", "Create", new { @class = "btn btn-primary" })
+    </p>
+}
+@foreach (var item in Model)
+{
+    <body>
+        <div class="container bg-primary text-white">
+            <div class="row">
+                <h2 class="naglowek_info">Kontakt do <b>@item.Nazwa</b></h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+
+                </div>
+
+                <div class="col-lg-10 bg-info kontakt">
+                    <h3>
+                        Skontaktujesz się z nami dzwoniąc pod numer <b>@item.Telefon</b>
+                    </h3>
+                    <h3>
+                        Napisz wiadomość na maila <b>@item.Email</b>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </body>
+}
+
